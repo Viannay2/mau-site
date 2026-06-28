@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Henny+Penny&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Passion One", cusive;
+    --fonte3: "Siracha", cursive;
+    --fonte4: "Henny Penny"
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte4);
+}
+
+header {
+    background: linear-gradient(to left, rgb(63, 26, 197), grey, black, rgb(207, 207, 77));
+    color: white;
+    text-align: center;
+    font-size: 4vw;
+
+}
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte4);
+
+}
+header > p {
+    padding-bottom: 50px;
+}
+header a:hover, footer a:hover {
+    text-decoration: underline;
+    
+}
+a {
+    color: white;
+    text-decoration: none   ;
+    font-weight: bolder;
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 4vw;
+    background-attachment: fixed;
+}
+section.normal {
+    background-color: white;
+    color: black;
+}
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+
+}
+section.imagem > p {
+    padding: 2em;
+    display: inline-block;
+    background-color: rgba(14, 8, 8, 0.445);
+    text-shadow: 5px 5px 0px black; 
+}
+
+
+section#img01 {
+    background-image: url("../imagens/projeto-02-cordel.jpg");
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#img02 {
+    background-image: url("../imagens/S217fc517c02c4869b22fdbee0d9941feh.webp");
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
