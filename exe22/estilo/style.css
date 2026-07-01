@@ -75,10 +75,11 @@ section.imagem > p {
 
 
 section#img01 {
-    background-image: url("../imagens/projeto-02-cordel.jpg");
-    background-position: right center;
+    background-image:  url("../imagens/projeto-02-cordel.jpg");
+    background-position: right;
     background-size: cover;
     background-attachment: fixed;
+    ba
 }
 section#img02 {
     background-image: url("../imagens/S217fc517c02c4869b22fdbee0d9941feh.webp");
